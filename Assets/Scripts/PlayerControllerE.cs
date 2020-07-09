@@ -7,9 +7,7 @@ public class PlayerControllerE : MonoBehaviour
     public float speed;
     public Text countText;
     public Text winText;
-
     private int count;
-
     public static string k_ButtonNameSubmit
     {
         get;
