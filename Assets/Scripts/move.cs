@@ -6,11 +6,10 @@ public class move : MonoBehaviour
 {
     private Touch touch;
     private float speedModifier;
-
     // Start is called before the first frame update
     void Start()
     {
-        speedModifier = 0.01f;
+      speedModifier = 0.02f;
     }
 
     // Update is called once per frame
