@@ -7,9 +7,7 @@ public class PlayerControllerE : MonoBehaviour
     public float speed;
     public Text countText;
     public Text winText;
-
     private int count;
-
     public static string k_ButtonNameSubmit
     {
         get;
@@ -27,9 +25,7 @@ public class PlayerControllerE : MonoBehaviour
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
-
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-
         transform.Translate(movement * Time.deltaTime * speed);
     }
 
